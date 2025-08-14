@@ -42,3 +42,5 @@ composite = Image.alpha_composite(darkened.convert("RGBA"), binary_overlay)
 # Save and show result
 composite.save("binary_portrait.png")
 composite.show()
+
+print("hello world")
